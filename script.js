@@ -1,18 +1,10 @@
-if(document.querySelector('#order-problem-option').checked) {
-  document.querySelector('#order-number').style.visibility = 'visible';
-}
-else
-{
-  document.querySelector('#order-number').style.visibility = 'hidden';
-}
-
 // category selection menu bar
 // product contents to be displayed on the page
 var allHeader = document.querySelector('#shop-all');
 var racquets = document.querySelector('.racquets');
 var shoes = document.querySelector('.shoes');
 var shuttlecocks = document.querySelector('.shuttlecocks');
-
+ 
 // function clears the main element of all categories
 function clear() {
   var content = document.querySelector('main');
@@ -20,7 +12,7 @@ function clear() {
     content.removeChild(content.firstChild);
   }
 }
-
+ 
 // function for filtering display based on the category clicked on the menu bar
 function menuSelection(choice, display) {
   document.querySelector(choice).addEventListener('click', function() {
@@ -28,7 +20,7 @@ function menuSelection(choice, display) {
     document.querySelector('main').appendChild(display);
   });
 }
-
+ 
 // if racquets is clicked, only display racquet products
 menuSelection('#racquets-category', racquets);
 
