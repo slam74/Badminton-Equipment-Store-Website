@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SMASH! Badminton Shop</title>
+    <!-- include google material icons and .css file -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <!-- page header -->
+    <header>
+      <div id="logo">
+        <img src="images/logo.jpeg" alt="Smash! Logo" height="100" />
+      </div>
+      <h2>SMASH! Badminton Shop</h2>
+      <div id="user-options">
+        <i class="material-icons md-36">search</i>
+        <i class="material-icons md-36">shopping_cart</i>
+        <button id="login">
+          <i class="material-icons md-36">account_box</i>
+          LOG IN
+        </button>
+      </div>
+    </header>
+
+    <!-- category menu bar -->
+    <nav>
+      <ul class="menu-bar">
+        <li id="all-categories">Shop All</li>
+        <li id="racquets-category">Racquets</li>
+        <li id="shoes-category">Shoes</li>
+        <li id="shuttlecocks-category">Shuttlecocks</li>
+        <!-- about us has no functionality as of now -->
+        <li id="contact"><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- main content -->
+    <main>
+      <!-- header used when all items are displayed -->
+      <div id="shop-all">
+        <h2>SHOP ALL</h2>
+      </div>
+      <!-- all item images are taken from https://www.yonex.com/badminton -->
+
+      <!-- racquet category items -->
+      <div class="racquets">
+        <h2>RACQUETS</h2>
+        <div class="row">
+          <div class="product-card-wrapper">
+            <div class="product-card-image">
+              <img
+                src="images/VLTZF2.png"
+                alt="VOLTRIC Z-Force II image"
+                height="300"
+                width="250"
+              />
+            </div>
+            <div class="product-card-info">
+              <h3>VOLTRIC Z-Force II</h3>
+              <h4>CDN $220</h4>
+              <p>Description: VOLTRIC Series racquet. For advanced players.</p>
+            </div>
+          </div>
+          <div class="product-card-wrapper">
+            <div class="product-card-image">
+              <img src="images/A88D.png" alt="ASTROX 88 D image" height="300" width="250" />
+            </div>
+            <div class="product-card-info">
+              <h3>ASTROX 88 D</h3>
+              <h4>CDN $220</h4>
+              <p>
+                Description: ASTROX Series racquet. For advanced players.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="product-card-wrapper">
+            <div class="product-card-image">
+              <img src="images/d99.png" alt="DUORA 99 image" height="300" width="250" />
+            </div>
+            <div class="product-card-info">
+              <h3>DUORA 99</h3>
+              <h4>CDN $220</h4>
+              <p>Description: DUORA Series racquet. For advanced players.</p>
+            </div>
+          </div>
+          <div class="product-card-wrapper">
+            <div class="product-card-image">
+              <img src="images/arc11.png" alt="ARCSABER 11 image" height="300" width="250" />
+            </div>
+            <div class="product-card-info">
+              <h3>ARCSABER 11</h3>
+              <h4>CDN $220</h4>
+              <p>Description: ARCSABER Series racquet. For advanced players.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- shoe category items -->
+      <div class="shoes">
+        <h2>SHOES</h2>
+        <div class="row">
+          <div class="product-card-wrapper">
+            <div class="product-card-image">
+              <img
+                src="images/pc65r3.png"
+                alt="Power Cushion 65 R 3 image"
+                height="240"
+                width="200"
+              />
+            </div>
+            <div class="product-card-info">
+              <h3>Power Cushion 65 R 3 (Unisex)</h3>
+              <h4>CDN $120</h4>
+              <p>Description: Reliable cushioning for feet and shock absorption for joints.</p>
+            </div>
+          </div>
+          <div class="product-card-wrapper">
+            <div class="product-card-image">
+              <img
+                src="images/pc36w.png"
+                alt="Power Cushion 36 Wide image"
+                height="240"
+                width="200"
+              />
+            </div>
+            <div class="product-card-info">
+              <h3>Power Cushion 36 Wide (Unisex)</h3>
+              <h4>CDN $110</h4>
+              <p>
+                Description: Reliable cushioning for feet and shock absorption for joints.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="product-card-wrapper">
+            <div class="product-card-image">
+              <img
+                src="images/pc65z2.png"
+                alt="Power Cushion 65 Z 2 image"
+                height="240"
+                width="200"
+              />
+            </div>
+            <div class="product-card-info">
+              <h3>Power Cushion 65 Z 2 (Women's)</h3>
+              <h4>CDN $100</h4>
+              <p>
+                Description: Reliable cushioning perfect for quick and light footwork.
+              </p>
+            </div>
+          </div>
+          <div class="product-card-wrapper">
+            <div class="product-card-image">
+              <img src="images/pc36.png" alt="Power Cushion 36 image" height="240" width="200" />
+            </div>
+            <div class="product-card-info">
+              <h3>Power Cushion 36 (Junior)</h3>
+              <h4>CDN $60</h4>
+              <p>
+                Description: Reliable cushioning perfect for quick and light footwork.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- shuttlecock category items -->
+      <div class="shuttlecocks">
+        <h2>SHUTTLECOCKS</h2>
+        <div class="row">
+          <div class="product-card-wrapper">
+            <div class="product-card-image">
+              <img src="images/mavis350b.png" alt="Mavis 350B image" height="300" width="200" />
+            </div>
+            <div class="product-card-info">
+              <h3>Mavis 350B</h3>
+              <h4>CDN $15</h4>
+              <p>
+                Description: Affordable and durable shuttlecock for practice sessions.
+              </p>
+            </div>
+          </div>
+          <div class="product-card-wrapper">
+            <div class="product-card-image">
+              <img src="images/aerosensa10.png" alt="Aerosensa 10 image" height="300" width="200" />
+            </div>
+            <div class="product-card-info">
+              <h3>Aerosensa 10</h3>
+              <h4>CDN $30</h4>
+              <p>
+                Description: YONEX AEROSENSA shuttlecocks are the official shuttlecock for
+                tournaments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- page footer content -->
+    <footer>
+      <div id="footer-wrapper">
+        <div>
+          <h3>Follow us on social media</h3>
+          <img src="https://img.icons8.com/material/24/000000/facebook--v1.png" alt="Facebook Logo" >
+          <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+          <img src="https://img.icons8.com/material/24/000000/twitter--v1.png" alt="Twitter Logo" >
+          <a href="https://twitter.com/" target="_blank">Twitter</a>
+          <img
+            src="https://img.icons8.com/material/24/000000/instagram-new--v1.png"
+            alt="Instagram Logo"
+          >
+          <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        </div>
+
+        <div id="footer-logo">
+          <img src="images/logo.jpeg" alt="SMASH logo" height="50" >
+          <h3>&copy; 2020 SMASH! Badminton Shop</h3>
+        </div>
+
+        <div id="footer-subscribe">
+          <h3>Subscribe to our newsletter!</h3>
+          <form action="https://formspree.io/xvowlwrl" method="POST">
+            <input 
+            type="email" 
+            name="email" 
+            id="subscribe-newsletter"
+            autocomplete="email"
+            placeholder="Enter your email here"
+            >
+            <input type="submit" name="submit" value="Sign Up">
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- include .js script -->
+    <script src="script.js"></script>
+  </body>
+</html>
