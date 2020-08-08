@@ -1,4 +1,3 @@
- 
 if(document.querySelector('#order-problem-option').checked) {
   document.querySelector('#order-number').style.visibility = 'visible';
 }
@@ -7,6 +6,7 @@ else
   document.querySelector('#order-number').style.visibility = 'hidden';
 }
 
+// category selection menu bar
 // product contents to be displayed on the page
 var allHeader = document.querySelector('#shop-all');
 var racquets = document.querySelector('.racquets');
