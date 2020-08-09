@@ -1,22 +1,3 @@
-// radio button options
-
-window.addEventListener('load', function(){
-  document.querySelector('#order-number').style.display = 'none';
-});
-
-document.querySelector('#order-problem-option').addEventListener('click', function(){
-  document.querySelector('#order-number').style.visibility = 'visible';
-  document.querySelector('#order-number').style.display = 'block';
-});
-
-document.querySelector('#comment-option').addEventListener('click', function(){
-  document.querySelector('#order-number').style.display = 'none';
-});
-
-document.querySelector('#question-option').addEventListener('click', function(){
-  document.querySelector('#order-number').style.display = 'none';
-});
-
 // category selection menu bar
 
 // product contents to be displayed on the page
